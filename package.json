@@ -1,0 +1,17 @@
+{
+  "name": "mlog",
+  "version": "1.0.0",
+  "description": "node logger",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0",
+    "object-assign": "^4.1.0",
+    "pkginfo": "^0.4.0"
+  }
+}
