@@ -1,6 +1,6 @@
 {
-  "name": "mlog",
-  "version": "0.0.1",
+  "name": "smlog",
+  "version": "0.1.0",
   "description": "a simple node logger",
   "main": "lib/index.js",
   "scripts": {

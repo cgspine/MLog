@@ -3,3 +3,4 @@ node_modules/
 *.swp
 tmp/
 example/log*
+npm-debug.log

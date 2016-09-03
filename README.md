@@ -5,7 +5,7 @@
 ## Installation
 
 ```bashp
-  npm install mlog
+  npm install smlog
 ```
 
 ## Usage
@@ -13,10 +13,10 @@
 简单控制台输出
 
 ``` js
-  var MLog = require('mlog')
+  var smlog = require('smlog')
 
   // 获取默认的logger
-  var logger = MLog.get()
+  var logger = smlog.get()
 
   logger.i('tag', 'message')
   logger.w('tag', 'message')
@@ -27,13 +27,13 @@
 使用自己的logger
 
 ``` js
-  var logger = MLog.get('custom')
+  var logger = smlog.get('custom')
 ```
 
 添加日志文件(按日期和大小进行回滚)
 
 ``` js
-  var fileTarget = new MLog.targets.File({
+  var fileTarget = new smlog.targets.File({
     logDir: __dirname,
     filename: 'log',
     rollIntervals: 24* 60* 60 * 1000,  // 日志回滚日期间隔, 默认7天
