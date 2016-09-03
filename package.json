@@ -1,17 +1,24 @@
 {
   "name": "mlog",
   "version": "0.0.1",
-  "description": "node logger",
+  "description": "a simple node logger",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "cgspine",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgspine/MLog.git"
+  },
   "dependencies": {
     "async": "^2.0.1",
     "debug": "^2.2.0",
     "object-assign": "^4.1.0",
     "pkginfo": "^0.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cgspine/MLog/issues"
   }
 }
