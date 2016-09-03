@@ -7,7 +7,7 @@ var MLog = require('../lib')
 var logger = MLog.get()
 var fileTarget = new MLog.targets.File({
     logDir: __dirname,
-    filename: 'log',
+    filename: 'log.log',
     rollIntervals: 24* 60* 60 * 1000,  // 日志回滚日期间隔, 默认7天
     rollMiniSize: 1024 * 50,           // 日志回滚所需最低容量, 默认 60k
     pattern: '.yyyy-MM-dd',            // 日志回滚后缀名

@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cgspine/MLog.git"
+    "url": "https://github.com/cgspine/smlog.git"
   },
   "dependencies": {
     "async": "^2.0.1",
@@ -19,6 +19,6 @@
     "pkginfo": "^0.4.0"
   },
   "bugs": {
-    "url": "https://github.com/cgspine/MLog/issues"
+    "url": "https://github.com/cgspine/smlog/issues"
   }
 }

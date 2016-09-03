@@ -4,6 +4,6 @@ test
 node_modules/
 node_modules/*
 *.md
-examples
-examples/*
+example
+example/*
 npm-debug.log
