@@ -1,4 +1,4 @@
-# MLog
+# smlog
 
 一个小巧的node log库
 
